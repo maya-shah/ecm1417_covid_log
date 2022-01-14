@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Settings</title>
+    </head>
+
+    <body>
+        <div class="heading">
+            <h1>COVID-19 Contact Tracing</h1>
+        </div>
+
+        <div class="sidenav">
+            
+            <a href="home.html">Home</a>
+            <a href="overview_page.html">Overview</a>
+            <a href="add_visit_page.html">Add Visit</a>
+            <a href="report_page.html">Report</a>
+            <a href="settings_page.html">Settings</a>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <a href="login_page.html" id="logout">Logout</a>
+
+        </div>
+
+        <div class="home_div">
+            
+            <h1>Report an Infection</h1>
+            <br>
+            <p>Here you may change the alert distance and the time span for which the contact tracing will be provided.</p>
+            <br><br>
+                <form class="report">
+                    <label>Window</label>
+                    <input type="text" list="window">
+                    <datalist id="window">
+                        <option value="One Week">
+                        <option value="Two Weeks">
+                        <option value="Three Weeks">
+                        <option value="Four Weeks">
+                    </datalist>
+                      <br><br>
+                    <label>Distance</label><input type="number" id="distance" name="distance"><br>
+                    <br>
+                    <br><br><br><br><br><br><br><br><br><br>
+                    <div class="btn_group">
+                        <div class="report_btn">                    
+                            <a href="home.html"><input type="button" value="Report"></a>
+                            <a href="home.html"><input type="button" id="cancel" value="Cancel"></a>
+
+                        </div>
+                        
+                        
+                        
+                    </div>
+                    
+                </form>
+           
+        </div>
+
+        <img src="watermark.png" class="watermark">
+    </body>
+</html>
